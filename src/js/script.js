@@ -69,10 +69,14 @@ let circle_btn = document.querySelector('.circle');
 
 heart_btn.addEventListener('click', function() {
     document.body.style.cursor = 'url("https://cdn-icons-png.flaticon.com/128/2324/2324510.png") 60 60, auto';
+    hideAll();
+    iframes[3].style.display = 'block'; // Show the second iframe
 });
 
-circle_btn.addEventListener('click', function() {
-    document.body.style.cursor = ``;
+star_btn.addEventListener('click', function() {
+    document.body.style.cursor = 'url("data:image/svg+xml;utf8,%3Csvg%20id%3D%22eeTHxknQWZo1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2032%2032%22%20shape-rendering%3D%22geometricPrecision%22%20text-rendering%3D%22geometricPrecision%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M14.869338%2C0.756872L11.583832%2C5.230025l-5.56151-.092454l3.706764%2C3.28688-1.975691%2C4.606773l5.721593-1.850158c0%2C0%2C5.276095%2C2.972076%2C5.276095%2C2.972076s-1.109027-4.921457-1.109027-4.921457L21.84826%2C6.752038L16.479144%2C5.729415L14.869338%2C0.756872Z%22%20transform%3D%22matrix(.993246-.116025%200.132858%201.137344%201.168369%209.137932)%22%20fill%3D%22%23000000%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%3C%2Fsvg%3E") 30 10, auto';
+    hideAll();
+    iframes[1].style.display = 'block'; // Show the fourth iframe
 });
 
 console.log("slt")
