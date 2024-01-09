@@ -24,9 +24,15 @@ function setCursor(type, color = "#000000", size = 32) {
         <path d="M14.869338,0.756872L11.583832,5.230025l-5.56151-.092454l3.706764,3.28688-1.975691,4.606773l5.721593-1.850158c0,0,5.276095,2.972076,5.276095,2.972076s-1.109027-4.921457-1.109027-4.921457L21.84826,6.752038L16.479144,5.729415L14.869338,0.756872Z" transform="matrix(.993246-.116025 0.132858 1.137344 1.168369 9.137932)" fill="${color}" stroke="${color}" stroke-width="1"/>
       </svg>`;
   
-      const svg_url = `url("data:image/svg+xml;utf8,${encodeURIComponent(svg_star)}") 10 10, auto`;
+      const svg_url = `url("data:image/svg+xml;utf8,${encodeURIComponent(svg_star)}") 30 10, auto`;
   
       return svg_url;
+    }
+
+    if (type === "heart") {
+        const heart_url = `url("https://cdn-icons-png.flaticon.com/128/2324/2324510.png") 60 60, auto`;
+
+        return heart_url;
     }
   
     // Ajoutez ici la logique pour les autres types (heart, rocket, rainbow) si nécessaire.
