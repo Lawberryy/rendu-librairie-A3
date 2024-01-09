@@ -13,32 +13,32 @@ h1{
     font-family: 'Alegreya', serif;
     color: #f5f5f5;
     text-align: center;
-    margin-top: 40px;
+    padding-top: 40px;
 }
+
 .container{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     background-color: #ffffff;
+}
+
+.button-container{
     width: 90%;
     max-width: 50em;
     padding: 5em 2em;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 30%;
-    left: 50%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5em 2em;
 }
 .code-container{
-    background-color: #ffffff;
-    padding: 2em;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 65%;
-    left: 50%;
-    display: grid;
+    height: 100%;
 }
 
-.container button{
+
+.button-container button{
     font-size: 1.2em;
     background-color: #918be5;
     border: none;
@@ -50,18 +50,6 @@ h1{
     cursor: pointer;
 }
 
-/* .heart{
-    cursor: url("../img/heart.svg ") 50 10, auto;
-} */
-
-/* .circle{
-    cursor: url("../img/circle.svg ") 50 10, auto;
+button.reset{
+    background-color: #7e9cff;
 }
-
-*{
-    cursor: url("../img/circle.svg ") 50 10, auto;
-}
-
-.heart{
-    cursor: url("../img/heart.svg ") 50 10, auto;
-} */

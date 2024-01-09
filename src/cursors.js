@@ -27,6 +27,14 @@ function setCursor(type, color = "#000000", size = 32) {
     if (typeof size !== 'number') {
       return NaN;
     }
+
+    if (type === "default") {
+      const svg_default = `<svg id="eL5y4AUlFe31" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width='${size}' height='${size}' viewBox="0 0 32 32" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path d="M9.575241,16.543307l4.5-10l4.5,10-3.5-1.92v4.274331h-2v-4.269467l-3.5,1.915136Z" transform="matrix(2.026028-1.169728 1.169728 2.026028-28.312759 5.948613)" fill="none" stroke="${color}" stroke-width="0.5"/></svg>`;
+    
+      const default_url = `url("data:image/svg+xml;utf8,${encodeURIComponent(svg_default)}") 30 10, auto`;
+    
+      return default_url;
+    }
   
     // If the type is 'star', return a URL for a star cursor.
     if (type === "star") {
