@@ -1,7 +1,7 @@
 {
-  "name": "rendu-librairie",
+  "name": "cursors-library-hldv-sd",
   "version": "1.0.0",
-  "description": "Ceci est la description",
+  "description": "A library of awesome cursors to use in your projects",
   "main": "index.js",
   "type": "module",
   "scripts": {
