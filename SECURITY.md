@@ -1,29 +1,29 @@
-# Politique de sécurité
+# Security Policy
 
-## Signalement d'une vulnérabilité de sécurité
+## Reporting a Security Vulnerability
 
-Si vous découvrez une vulnérabilité de sécurité dans ce projet, nous vous encourageons à nous en informer de manière responsable. Merci de suivre le processus décrit ci-dessous :
+If you discover a security vulnerability in this project, we encourage you to notify us responsibly. Please follow the process described below:
 
-1. **Faites-le nous savoir :** Envoyez un e-mail à [adresse-email] avec une description détaillée de la vulnérabilité. Nous ferons de notre mieux pour répondre rapidement à votre rapport.
+1. **Let us know:** Send an email to sixtine.delvallee@gmail.com with a detailed description of the vulnerability. We will do our best to respond promptly to your report.
 
-2. **Fournir des détails :** Incluez autant de détails que possible dans votre rapport, y compris des informations sur la manière de reproduire la vulnérabilité, le contexte dans lequel elle peut être exploitée, et toute preuve de concept ou exemple de code.
+2. **Provide details:** Include as much detail as possible in your report, including information on how to reproduce the vulnerability, the context in which it can be exploited, and any proof of concept or code examples.
 
-3. **Confidentialité :** Nous prenons la sécurité au sérieux. Nous vous encourageons à ne pas divulguer publiquement la vulnérabilité avant que nous ayons eu l'occasion de la corriger. Nous collaborerons avec vous pour résoudre le problème de manière appropriée.
+3. **Confidentiality:** We take security seriously. We encourage you not to publicly disclose the vulnerability before we have had a chance to fix it. We will work with you to resolve the issue appropriately.
 
-## Processus de correction
+## Remediation Process
 
-Une fois que nous recevons un rapport de vulnérabilité, nous suivons généralement ces étapes :
+Once we receive a vulnerability report, we typically follow these steps:
 
-1. **Vérification :** Nous vérifions la validité du rapport et essayons de reproduire la vulnérabilité.
+1. **Verification:** We verify the validity of the report and attempt to reproduce the vulnerability.
 
-2. **Corriger :** Nous travaillons sur un correctif pour la vulnérabilité.
+2. **Fixing:** We work on a fix for the vulnerability.
 
-3. **Publication d'une mise à jour :** Nous publions une mise à jour du projet avec le correctif. Cette mise à jour est généralement publiée en tant que nouvelle version du logiciel.
+3. **Release an Update:** We release an update to the project with the fix. This update is typically published as a new version of the software.
 
-4. **Notification :** Nous informons publiquement les utilisateurs du projet de la vulnérabilité et de la mise à jour disponible.
+4. **Notification:** We publicly inform project users about the vulnerability and the available update.
 
-## Conformité
+## Compliance
 
-Ce projet s'engage à traiter les rapports de sécurité de manière responsable et à collaborer avec les chercheurs en sécurité pour protéger nos utilisateurs.
+This project is committed to handling security reports responsibly and collaborating with security researchers to protect our users.
 
-Merci de votre aide pour rendre ce projet plus sûr et sécurisé.
+Thank you for helping make this project safer and more secure.

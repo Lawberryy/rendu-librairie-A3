@@ -1,24 +1,34 @@
 // cursors.js
 
 /**
- * Fonction permettant de définir le curseur personnalisé.
+ * The setCursor function allows you to set a custom cursor for your website.
  *
- * @param string type - Les options de personnalisation du curseur..
- * @param string color - La couleur du curseur.
- * @param number size - La taille du curseur.
- * @returns url - l'url du curseur personnalisé. 
+ * @param {string} type - The type of cursor: choose from the list found in the README.md documentation.
+ * @param {string} [color='#000000'] - The color of the cursor. This should be a valid CSS color.
+ * @param {number} [size=32] - The size of the cursor. This should be a number. We recommend a value between 16 and 32.
+ * @returns url - the URL of the custom cursor.
+ * 
+ * 
+ *  * @example
+ * 
+ *     setCursor('star', '#ff0FF0', 24)
  */
 
   
 function setCursor(type, color = "#000000", size = 32) {
+    // Check if the color and type parameters are strings.
+    // If not, throw an error.
     if (typeof color !== 'string' || typeof type !== 'string') {
       throw new Error('Parameters are not valid');
     }
   
+    // Check if the size parameter is a number.
+    // If not, return NaN.
     if (typeof size !== 'number') {
       return NaN;
     }
   
+    // If the type is 'star', return a URL for a star cursor.
     if (type === "star") {
       const svg_star = `<svg id="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width='${size}' height='${size}' viewBox="0 0 32 32" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
         <path d="M14.869338,0.756872L11.583832,5.230025l-5.56151-.092454l3.706764,3.28688-1.975691,4.606773l5.721593-1.850158c0,0,5.276095,2.972076,5.276095,2.972076s-1.109027-4.921457-1.109027-4.921457L21.84826,6.752038L16.479144,5.729415L14.869338,0.756872Z" transform="matrix(.993246-.116025 0.132858 1.137344 1.168369 9.137932)" fill="${color}" stroke="${color}" stroke-width="1"/>
@@ -29,17 +39,17 @@ function setCursor(type, color = "#000000", size = 32) {
       return svg_url;
     }
 
+    // If the type is 'heart', return a URL for a heart cursor.
     if (type === "heart") {
         const heart_url = `url("https://cdn-icons-png.flaticon.com/128/2324/2324510.png") 60 60, auto`;
 
         return heart_url;
     }
   
-    // Ajoutez ici la logique pour les autres types (heart, rocket, rainbow) si nécessaire.
-  
+    // If the type is not one defined above, throw an error.
     throw new Error(`Invalid cursor type: ${type}`);
   }
   
+  // Export the setCursor function so it can be used in other files.
   export { setCursor };
-  
   
