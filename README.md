@@ -42,12 +42,13 @@ import { setCursor } from 'cursors-library-hldv-sd';
 
 #### Non-customizable Cursors
 - heart
--
+- cat
+- sun
 
 #### Customizable Cursors
 - default: default cursor
 - star
-- 
+- flower
 
 You can customize the color and size of the cursor by providing the desired values for the 'color' and 'size' parameters.
 
