@@ -1,4 +1,5 @@
 let heart_btn = document.querySelector('.heart');
+<<<<<<< HEAD
 let star_btn = document.querySelector('.star');
 let default_btn = document.querySelector('.default');
 let reset_btn = document.querySelector('.reset');
@@ -42,3 +43,16 @@ default_btn.addEventListener('click', function() {
 reset_btn.addEventListener('click', resetIframes);
 
 console.log("slt");
+=======
+let circle_btn = document.querySelector('.circle');
+
+heart_btn.addEventListener('click', function() {
+    document.body.style.cursor = 'url("https://cdn-icons-png.flaticon.com/128/2324/2324510.png") 60 60, auto';
+});
+
+circle_btn.addEventListener('click', function() {
+    document.body.style.cursor = ``;
+});
+
+console.log("slt")
+>>>>>>> 7bf0458 (add command npm start / http-server)
