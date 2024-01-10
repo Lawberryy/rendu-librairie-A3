@@ -7,6 +7,7 @@ A simple JavaScript library to customize cursors on your website.
 
 - [Introduction](#introduction)
 - [Installation](#installation)
+- [Demo](#demo)
 - [Usage](#usage)
 - [Contributors](#contributors)
 
@@ -20,6 +21,13 @@ To use this library in your project, you can install it via npm:
 
 ```bash
 npm install cursors-library-hldv-sd
+```
+## Demo
+
+To visualize all available cursors in your local environment:
+
+```bash
+npm start
 ```
 
 ## Usage
@@ -44,7 +52,7 @@ import { setCursor } from 'cursors-library-hldv-sd';
 You can customize the color and size of the cursor by providing the desired values for the 'color' and 'size' parameters.
 
 ```javascript
-setCursor({ 'type', 'color', size });
+setCursor( 'type', 'color', size );
 ```
 Replace the above parameter names with the values you want to assign.
 
@@ -61,10 +69,10 @@ Here is an example of usage:
 ```html
 <script>
     // Using a predefined cursor
-    const myCursor = setCursor({ 'heart' });
+    const myCursor = setCursor('heart');
 
     // Optionally customizing a predefined cursor
-    const myCursor = setCursor({ 'star', '#ff0000', 24 });
+    const myCursor = setCursor('star', '#ff0000', 24);
 </script>
 ```
 
